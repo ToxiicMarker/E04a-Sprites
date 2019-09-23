@@ -1,6 +1,6 @@
 # E04a-Sprites Exercise
 
- This assignment worked on uploading png files to python arcade. I learned how to change the positions of the images, randomize the image locations on the screen, and print 20 different images on one screen. I lastly, learned how to make an image follow my mouse (kind of). This was great practice and application of loops,lists, appending lists, and randomization which I am still learning about in my C-200 CS and Programing class.  
+ This assignment worked on uploading png files to python arcade. I learned how to change the positions of the images, randomize the image locations on the screen, and print 20 different images on one screen. I lastly, learned how to make an image follow my mouse. This was great practice and application of loops,lists, appending lists, and randomization which I am still learning about in my C-200 CS and Programing class.  
  
 <!-- This is an exercise to start experimenting with sprites in Python Arcade. This repository assumes that you have Python Arcade installed.
 
