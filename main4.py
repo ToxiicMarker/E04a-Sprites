@@ -80,16 +80,6 @@ class MyGame(arcade.Window):
         self.animal_sprite.center_y = 300
         self.animal_list.append(self.animal_sprite)  
 
-
-
-
-
-
-
-
-
-
-
     def on_draw(self):
         arcade.start_render()
         self.animal_list.draw()
