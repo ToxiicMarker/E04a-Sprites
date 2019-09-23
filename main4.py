@@ -17,9 +17,13 @@ class MyGame(arcade.Window):
         os.chdir(file_path)
         arcade.set_background_color(open_color.white)
 
+        self.animal_list = arcade.SpriteList()
 
     def setup(self):
-        pass        
+        self.animal_sprite = arcade.Sprite("assets/froggy.png", 0.5)
+        self.animal_sprite.center_x = 200
+        self.animal_sprite.center_y = 100
+        self.animal_list.append(self.animal_sprite)     
 
     def on_draw(self):
         arcade.start_render()
