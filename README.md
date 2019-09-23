@@ -1,6 +1,8 @@
 # E04a-Sprites Exercise
 
-This is an exercise to start experimenting with sprites in Python Arcade. This repository assumes that you have Python Arcade installed.
+ This assignment worked on uploading png files to python arcade. I learned how to change the positions of the images, randomize the image locations on the screen, and print 20 different images on one screen. I lastly, learned how to make an image follow my mouse (kind of). This was great practice and application of loops,lists, appending lists, and randomization which I am still learning about in my C-200 CS and Programing class.  
+ 
+<!-- This is an exercise to start experimenting with sprites in Python Arcade. This repository assumes that you have Python Arcade installed.
 
 The exercise takes place across three files:
 
@@ -33,4 +35,6 @@ The exercise takes place across three files:
    * [kenney.nl](https://kenney.nl) or [openGameArt.org](https://opengameart.org) are resources for free images
    * If you would like to make them move or react to the mouse, I will award extra points
 
-As usual, fork and clone this repository. Edit the LICENSE and README.md, and submit the URL of your repository to Canvas.
+As usual, fork and clone this repository. Edit the LICENSE and README.md, and submit the URL of your repository to Canvas. -->
+
+ 

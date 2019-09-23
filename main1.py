@@ -22,10 +22,11 @@ class MyGame(arcade.Window):
 
     def setup(self):
         animals = ['bear','buffalo','chick','chicken','cow','crocodile','dog','duck','elephant','frog','giraffe','goat','gorilla','hippo','horse','monkey','moose','narwhal','owl','panda','parrot','penguin','pig','rabbit','rhino','sloth','snake','walrus','whale','zebra']
-
-        animal = 'panda'
-        x = 400
-        y = 300
+        for i in range(20):
+            x = random.randint(0,800)
+            y = random.randint(0,600)
+            animal = random.choice(animals)
+            #i = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
         self.animal_sprite = arcade.Sprite("assets/{animal}.png".format(animal=animal), 0.5)
         self.animal_sprite.center_x = x
         self.animal_sprite.center_y = y
